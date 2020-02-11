@@ -165,6 +165,21 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 ***Contras:** Exige conhecimento (o que NÃO será um 'contra' para nós a partir da próxima aula)*
 
+### Automação de Backups e Recovery (v 0.3.0)
+
+Ótimo, nossa versão do Jenkins possui todos os plugins e a JDK que precisamos, tudo instalado de maneira automática, porém no passo anterior nós configuramos os acessos, plugins e ferramentas, e tudo se perdeu!
+
+Hashtag chateado!
+
+Mas isso termina agora, vamos começar a configuração do nosso backup atualizando o Dockerfile:
+
+Copie o arquivo '0.3.0.Dockerfile' disponilizado nos recursos da aula
+
+Geramos uma nova versão:
+
+```docker build . \```
+    ```--tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
+
 
 <div id='config'/>
 
