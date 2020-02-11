@@ -74,8 +74,7 @@ Neste primeiro momento vou gerar as imagens em minha máquina, mas você pode co
 
 ### Imagem Base, Primeiro Build e Versionamento
 
-*Vamos iniciar criando nossa primeira versão do arquivo 'Dockerfile'
-Copie o arquivo 'v.0.1.0/Dockerfile' disponilizado nos repositório.
+*Vamos iniciar criando nossa primeira versão do arquivo 'Dockerfile'. Copie o arquivo 'v.0.1.0/Dockerfile' disponilizado nos repositório.*
 
 **No terminal execute:**
 
