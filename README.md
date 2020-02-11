@@ -182,15 +182,18 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 ```docker run --name docker-jenkins-3 \                                                                                                       -p 8080:8080 \                                                                                                                           -v jenkins_home_3:/var/jenkins_home \                                                                                                   -v jenkins_backup_3:/srv/backup \                                                                                                       <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
 
 
-1. Login na Ferramenta
-2. Troca de Senha
-3. Configuração da JDK
-4. Criação de 2 Jobs
-5. Configurar Backup
-6. Executar Backup
-7. Obter Backup
+*1. Login na Ferramenta*
+*2. Troca de Senha*
+*3. Configuração da JDK*
+*4. Criação de 2 Jobs*
+*5. Configurar Backup*
+*6. Executar Backup*
+*7. Obter Backup*
 
  ```docker push <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
+
+### Gerando Imagem com Import de Configurações (v 0.4.0)
+
 
 <div id='config'/>
 
