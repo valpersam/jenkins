@@ -167,18 +167,19 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 ### Automação de Backups e Recovery (v 0.3.0)
 
-Ótimo, nossa versão do Jenkins possui todos os plugins e a JDK que precisamos, tudo instalado de maneira automática, porém no passo anterior nós configuramos os acessos, plugins e ferramentas, e tudo se perdeu!
+*Ótimo, nossa versão do Jenkins possui todos os plugins e a JDK que precisamos, tudo instalado de maneira automática, porém no passo anterior nós configuramos os acessos, plugins e ferramentas, e tudo se perdeu!*
 
-Hashtag chateado!
+*Mas isso termina agora, vamos começar a configuração do nosso backup atualizando o Dockerfile:*
 
-Mas isso termina agora, vamos começar a configuração do nosso backup atualizando o Dockerfile:
+*Copie o arquivo '0.3.0.Dockerfile' disponilizado nos recursos da aula*
 
-Copie o arquivo '0.3.0.Dockerfile' disponilizado nos recursos da aula
-
-Geramos uma nova versão:
+*Geramos uma nova versão:*
 
 ```docker build . \                                                                                                                            -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
 
+*E executamos:*
+
+```docker run --name docker-jenkins-3 \                                                                                                        -p 8080:8080 \                                                                                                                          -v jenkins_home_3:/var/jenkins_home \                                                                                                    -v jenkins_backup_3:/srv/backup \                                                                                                        <usuario-docker-hub>/missao-devops-jenkins:0.3.0```                                                                                                          
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
