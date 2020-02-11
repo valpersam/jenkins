@@ -9,8 +9,8 @@ Introdução e Conceitos
  3. [Jenkins AutoConfig via Groovy](#config)
  4. [Jenkins & Kubernetes](#together)
  
- Extra: VMs com Vagrant e Ansible
- Extra: Play With K8s
+ [Extra: VMs com Vagrant e Ansible](#automation)
+ [Extra: Play With K8s](#kubernetes)
 
 *******
 
