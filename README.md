@@ -107,6 +107,10 @@ Faça o login em sua sua conta**
 
 Na próxima aula, daremos o primeiro passo rumo a automação!
 
+### Instalação Automática de Plugins (v 0.2.0)
+
+
+
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
