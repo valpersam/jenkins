@@ -135,6 +135,37 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
  
 *E finalmente com os plugins instalados, vamos verificar se está tudo OK!*
 
+### Configuração Jenkins
+
+Agora, vamos executar os seguintes passos:
+
+* *Acessamos o Jenkins com a credencial inicial;*
+* *Configuração de um novo usuário;* 
+* *Configuração da JDK;*
+
+E tudo parece funcionar perfeitamente bem, exceto que, caso este container seja destruído, vamos ter que realizar essas configurações iniciais novamente?
+
+Infelizmente sim! :(
+
+Neste ponto temos duas opções para solucionar este 'problema':
+
+
+1.Gerar uma nova tag desta imagem docker*
+
+**Prós:** É prático!
+
+**Contras:** A imagem vai ficar enorme com workspaces, plugins e tudo mais. Você vai perder o controle do que existe lá dentro. Se torna 
+
+inviável replicar um ambiente neste estado;
+
+
+2.Automatizar um backup preciso, com apenas o que importa:
+
+**Prós:** Todos!
+
+**Contras:** Exige conhecimento (o que NÃO será um 'contra' para nós a partir da próxima aula)
+
+
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
