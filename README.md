@@ -177,7 +177,8 @@ Copie o arquivo '0.3.0.Dockerfile' disponilizado nos recursos da aula
 
 Geramos uma nova versão:
 
-*docker build . \                                                                                                                     -- *     -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0
+```docker build . \                                                                                                                           * -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
+
 
 
 <div id='config'/>
