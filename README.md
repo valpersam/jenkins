@@ -7,7 +7,8 @@
 
 ### Introdução e Conceitos
 
-** **DevOps
+**DevOps
+
 São práticas utilizadas para melhorar a integração entre equipes de tecnologia.
 DevOps são simplesmente conceitos. DevOps não é, nem trata de ferramentas diretamente.
 
