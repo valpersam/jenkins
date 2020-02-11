@@ -1,4 +1,4 @@
-<a href="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/home"><img src="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/missaodevops-jenkins-docker-kube.png" title="jenkins" ="jenkins"></a>
+<img src="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/missaodevops-jenkins-docker-kube.png" altjenkins">
 
 # Topicos
 
