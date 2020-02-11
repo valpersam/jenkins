@@ -62,6 +62,15 @@ Introdução e Conceitos
 
 ### Instalação do Docker
 
+Vamos começar com a instalação do Docker, neste primeiro momento ele será o responsável por manusear nossa imagem Jenkins.
+Instale: https://docs.docker.com/install/
+Você pode optar por:
+
+* *Instalar em sua máquina;*
+* *Dentro de numa máquina virtual;*
+* *Utilizar uma cloud qualquer;*
+
+Neste primeiro momento vou gerar as imagens em minha máquina, mas você pode consultar a sessão 'Extras' deste curso para explorar as demais opções.
 
 
 <div id='config'/>
