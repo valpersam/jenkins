@@ -55,10 +55,10 @@ Introdução e Conceitos
 ### Vamos explicar as motivações desta abordagem:
 
 * *Esta será a garantia de que sabemos exatamente como configurar nosso Jenkins;*
-.As ferramentas, plugins e configurações serão precisas;
-.Segurança e qualidade no processo de atualização das ferramentas;
-.Subida de novas instâncias de Jenkins em questão de segundos;
-.Reprodutibilidade e Disaster Recovery;
+* *As ferramentas, plugins e configurações serão precisas;*
+* *Segurança e qualidade no processo de atualização das ferramentas;*
+* *Subida de novas instâncias de Jenkins em questão de segundos;*
+* *Reprodutibilidade e Disaster Recovery;*
 
 <div id='config'/>
 
