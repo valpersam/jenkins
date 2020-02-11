@@ -43,7 +43,7 @@ Introdução e Conceitos
 
 ### Arquitetura Proposta
 
-
+![alt text](https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/01-intro-arquitetura-proposta.png)
 
 
 <div id='tools'/> 
