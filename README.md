@@ -1,4 +1,5 @@
-<img src="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/missaodevops-jenkins-docker-kube.png" altjenkins">
+![alt text](https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/missaodevops-jenkins-docker-kube.png)
+
 
 # Topicos
 
