@@ -2,5 +2,10 @@
 
 ## Topicos
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Seção 1: Introdução
+Seção 2: Jenkins & Docker
+Seção 3: Jenkins AutoConfig via Groovy
+Seção 4: Jenkins & Kubernetes
+Extra: VMs com Vagrant e Ansible
+Extra: Play With K8s
 
