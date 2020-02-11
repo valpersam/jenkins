@@ -30,9 +30,16 @@ Introdução e Conceitos
 ### Docker
 *Plataforma de Containers, com ela iremos construir uma imagem personalizada de Jenkins. Esta imagem, por sua vez, nos irá garantir reprodutibilidade, escala e rápida resposta a desastres.*
 
-
 ### Kubernetes
 *Orquestrador de Containers, gerencia todo o processo de instalação e execução de containers, ele será responsável por gerir a execução da nossa imagem Jenkins e também prover recursos para a construção dos nossos códigos.*
+
+### Cenário: Crítico, com recursos limitados
+*Vamos começar com a seguinte situação: temos uma instância de Jenkins (Master), que possui 500 jobs. Todos seus processos de construção dependem desta instância.*
+
+1-*Um Jenkins 'comum' normalmente costuma ter cerca de 100 plugins instalados. Atualizá-los de uma maneira geral é uma tarefa tranquila e executada de uma só vez.Feito isso, o Jenkins sofre um restart e passa a operar com os novos plugins. Ao longo das próximas horas alguns jobs vão parando de funcionar, e seu precisar retornar todos esses plugins a suas versões anteriores? No fim... está aberta a temporada de caça as bruxas!!! ##Problema 1: Atualização E Rollback Seguro de Componentes##*
+
+
+2-*O server pegou fogo? Trágico, não? O último backup é do mês passado? O que você faria numa situação de desastre? Problema 2: Automação de Backups e Recuperação de Desastres*
 
 
 <div id='tools'/> 
