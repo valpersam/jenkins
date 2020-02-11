@@ -150,20 +150,20 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 *Neste ponto temos duas opções para solucionar este 'problema':*
 
 
-1. Gerar uma nova tag desta imagem docker*
+*1. Gerar uma nova tag desta imagem docker*
 
 **Prós:** É prático!
 
 **Contras:** A imagem vai ficar enorme com workspaces, plugins e tudo mais. Você vai perder o controle do que existe lá dentro. Se torna 
 
-inviável replicar um ambiente neste estado;
+*inviável replicar um ambiente neste estado;*
 
 
-2. Automatizar um backup preciso, com apenas o que importa:
+*2. Automatizar um backup preciso, com apenas o que importa:*
 
-**Prós:** Todos!
+***Prós:** Todos!*
 
-**Contras:** Exige conhecimento (o que NÃO será um 'contra' para nós a partir da próxima aula)
+***Contras:** Exige conhecimento (o que NÃO será um 'contra' para nós a partir da próxima aula)*
 
 
 <div id='config'/>
