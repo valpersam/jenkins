@@ -122,11 +122,13 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 *Copie também o arquivo 'Dockerfile' disponilizado no diretório 'v.0.2.0', nos recursos da aula*
 
 *Vamos gerar essa nova versão? Execute:*
+
 *docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.2.0*
  
 *Você vai reparar muita coisa diferente nos logs por conta da instalação dos plugins*
 
 *Então vamos subir um novo container, com base na nova versão da imagem:*
+
 *docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.2.0*
  
 *Push: docker push <usuario-docker-hub>/missao-devops-jenkins:0.2.0*
