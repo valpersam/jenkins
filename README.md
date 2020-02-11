@@ -98,7 +98,7 @@ Faça o login em sua sua conta**
 **Agora, vamos dar uma navegada na nossa nova instância de Jenkins.**
 
 *E repassar alguns comandos úteis:*
-* *Ver todas imagens disponíveis: docker image*
+* *Ver todas imagens disponíveis: **docker image**
 * *Listar Containers em Execução: docker ps*
 * *Listar Todos os Containers: docker ps -a*
 * *Logs: docker logs <id|name>*
