@@ -79,16 +79,16 @@ Copie o arquivo 'v.0.1.0/Dockerfile' disponilizado nos repositório.
 
 **No terminal execute:**
 
-docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.1.0
+*docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.1.0*
 
-Por último e não menos importante, vamos armazenar no DockerHub a primeira versão da nossa imagem!
-Faça o login em sua sua conta:
+**Por último e não menos importante, vamos armazenar no DockerHub a primeira versão da nossa imagem!
+Faça o login em sua sua conta**
 
-docker login <usuario-docker-hub>
+*docker login <usuario-docker-hub>*
 
 **E envie sua imagem:**
 
-docker push <usuario-docker-hub>/missao-devops-jenkins:0.1.0
+*docker push <usuario-docker-hub>/missao-devops-jenkins:0.1.0*
 
 **Execução da Nossa Imagem (v 0.1.0)**
 
