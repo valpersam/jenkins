@@ -78,22 +78,22 @@ Neste primeiro momento vou gerar as imagens em minha máquina, mas você pode co
 
 **No terminal execute:**
 
-*docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.1.0*
+```docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.1.0```
 
 **Por último e não menos importante, vamos armazenar no DockerHub a primeira versão da nossa imagem!
 Faça o login em sua sua conta**
 
-*docker login <usuario-docker-hub>*
+```docker login <usuario-docker-hub>```
 
 **E envie sua imagem:**
 
-*docker push <usuario-docker-hub>/missao-devops-jenkins:0.1.0*
+```docker push <usuario-docker-hub>/missao-devops-jenkins:0.1.0```
 
 **Execução da Nossa Imagem (v 0.1.0)**
 
 *Sucesso! Imagem pronta, agora vamos subir nosso primeiro container Jenkins:*
 
-*docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.1.0*
+```docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.1.0```
  
 **Agora, vamos dar uma navegada na nossa nova instância de Jenkins.**
 
@@ -123,19 +123,17 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 *Vamos gerar essa nova versão? Execute:*
 
-*```docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.2.0*```
+```docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.2.0```
  
 *Você vai reparar muita coisa diferente nos logs por conta da instalação dos plugins*
 
 *Então vamos subir um novo container, com base na nova versão da imagem:*
 
-*docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.2.0*
+```docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.2.0```
  
 *docker push <usuario-docker-hub>/missao-devops-jenkins:0.2.0*
  
 *E finalmente com os plugins instalados, vamos verificar se está tudo OK!*
-
-
 
 <div id='config'/>
 
