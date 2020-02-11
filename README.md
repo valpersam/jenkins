@@ -1,4 +1,4 @@
-<a href="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/home"><img src="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/missaodevops-jenkins-docker-kube.png" title="FVCproductions" alt="FVCproductions"></a>
+<a href="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/home"><img src="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/missaodevops-jenkins-docker-kube.png" title="jenkins" ="jenkins"></a>
 
 # Topicos
 
@@ -39,6 +39,10 @@ Introdução e Conceitos
 1- *Um Jenkins 'comum' normalmente costuma ter cerca de 100 plugins instalados. Atualizá-los de uma maneira geral é uma tarefa tranquila e executada de uma só vez. Feito isso, o Jenkins sofre um restart e passa a operar com os novos plugins. Ao longo das próximas horas alguns jobs vão parando de funcionar, e seu eu precisar retornar todos esses plugins a suas versões anteriores? No fim... está aberta a temporada de caça as bruxas!!! **Problema 1: Atualização E Rollback Seguro de Componentes***
 
 2- *O server pegou fogo? Trágico, não? O último backup é do mês passado? O que você faria numa situação de desastre? **Problema 2: Automação de Backups e Recuperação de Desastres***
+
+### Arquitetura Proposta
+
+
 
 
 <div id='tools'/> 
