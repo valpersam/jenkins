@@ -109,6 +109,29 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 ### Instalação Automática de Plugins (v 0.2.0)
 
+Antes de mais nada, devemos ressaltar que os plugins são **parte vital** do ecossistema do Jenkins.
+
+Se você está iniciando, ou ainda trabalha em um contexto simples, muito provavelmente ainda não necessitou ter esse nível de detalhe, porém, quando o intuito é **atuar em larga escala**, todo plugin deve ser registrado junto a sua versão.
+
+Iniciaremos com o meu setup de plugins, depois vocês podem (e devem) trabalhar em sua versão, por isso copie o arquivo **plugins.txt** do diretório **v.0.2.0** disponibilizado nos recursos da aula.
+
+Com a lista de plugins gerada, que tal se nossa imagem já viesse com **todos esses plugins** configurados?
+Sem a necessidade de ter que selecioná-los durante o **wizard de configuração**? Assim ninguém correria o risco de esquecer ou deixar passar um ou mais plugins!
+
+Se você acha que isso seria ótimo, então é exatamente o que vamos fazer!
+Copie também o arquivo 'Dockerfile' disponilizado no diretório 'v.0.2.0', nos recursos da aula
+
+Vamos gerar essa nova versão? Execute:
+docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.2.0
+ 
+Você vai reparar muita coisa diferente nos logs por conta da instalação dos plugins.
+
+Então vamos subir um novo container, com base na nova versão da imagem:
+docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.2.0
+ 
+Push: docker push <usuario-docker-hub>/missao-devops-jenkins:0.2.0
+E finalmente com os plugins instalados, vamos verificar se está tudo OK!
+
 
 
 <div id='config'/>
