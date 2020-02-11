@@ -137,20 +137,20 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 ### Configuração Jenkins
 
-Agora, vamos executar os seguintes passos:
+*Agora, vamos executar os seguintes passos:*
 
 * *Acessamos o Jenkins com a credencial inicial;*
 * *Configuração de um novo usuário;* 
 * *Configuração da JDK;*
 
-E tudo parece funcionar perfeitamente bem, exceto que, caso este container seja destruído, vamos ter que realizar essas configurações iniciais novamente?
+*E tudo parece funcionar perfeitamente bem, exceto que, caso este container seja destruído, vamos ter que realizar essas configurações iniciais novamente?*
 
-Infelizmente sim! :(
+*Infelizmente sim! :(*
 
-Neste ponto temos duas opções para solucionar este 'problema':
+*Neste ponto temos duas opções para solucionar este 'problema':*
 
 
-1.Gerar uma nova tag desta imagem docker*
+1. Gerar uma nova tag desta imagem docker*
 
 **Prós:** É prático!
 
@@ -159,7 +159,7 @@ Neste ponto temos duas opções para solucionar este 'problema':
 inviável replicar um ambiente neste estado;
 
 
-2.Automatizar um backup preciso, com apenas o que importa:
+2. Automatizar um backup preciso, com apenas o que importa:
 
 **Prós:** Todos!
 
