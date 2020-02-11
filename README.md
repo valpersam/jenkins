@@ -1,6 +1,6 @@
 # Introdução e Conceitos
 
-One Paragraph of project description goes here
+<a href="http://fvcproductions.com"><img src="https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/missaodevops-jenkins-docker-kube.png" title="FVCproductions" alt="FVCproductions"></a>
 
 ## Getting Started
 
