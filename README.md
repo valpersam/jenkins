@@ -26,13 +26,32 @@ sdffdsf
 
 ## Jenkins & Docker
 
+TESTE
+
 <div id='config'/>
 
 ## Jenkins AutoConfig via Groovy
 
+TESTE
+
 <div id='together'/>
 
 ## Jenkins & Kubernetes
+
+TESTE
+
+<div id='automation'/>
+
+## Extra: VMs com Vagrant e Ansible
+
+TESTE
+
+<div id='kubernetes'/>
+
+## Extra: Play With K8s
+
+TESTE
+
 
 
 
