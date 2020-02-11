@@ -95,7 +95,7 @@ Faça o login em sua sua conta**
 
 *docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.1.0*
  
-** Agora, vamos dar uma navegada na nossa nova instância de Jenkins.
+**Agora, vamos dar uma navegada na nossa nova instância de Jenkins.**
 
 *E repassar alguns comandos úteis:*
 *. Ver todas imagens disponíveis: docker image*
