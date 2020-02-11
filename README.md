@@ -123,7 +123,7 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 *Vamos gerar essa nova versão? Execute:*
 
-*docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.2.0*
+*```docker build . --tag <usuario-docker-hub>/missao-devops-jenkins:0.2.0*```
  
 *Você vai reparar muita coisa diferente nos logs por conta da instalação dos plugins*
 
