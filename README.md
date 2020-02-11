@@ -91,18 +91,19 @@ Faça o login em sua sua conta**
 
 **Execução da Nossa Imagem (v 0.1.0)**
 
-Sucesso! Imagem pronta, agora vamos subir nosso primeiro container Jenkins:
-docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.1.0
- 
-Agora, vamos dar uma navegada na nossa nova instância de Jenkins.
+*Sucesso! Imagem pronta, agora vamos subir nosso primeiro container Jenkins:*
 
-E repassar alguns comandos úteis:
-. Ver todas imagens disponíveis: docker images
-. Listar Containers em Execução: docker ps
-. Listar Todos os Containers: docker ps -a
-. Logs: docker logs <id|name>
-. Para remover containers: docker rm <id|name>
-. Para remover imagens: docker rmi <id|name>
+*docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.1.0*
+ 
+** Agora, vamos dar uma navegada na nossa nova instância de Jenkins.
+
+*E repassar alguns comandos úteis:*
+*. Ver todas imagens disponíveis: docker image*
+*. Listar Containers em Execução: docker ps*
+*. Listar Todos os Containers: docker ps -a*
+*. Logs: docker logs <id|name>*
+*. Para remover containers: docker rm <id|name>*
+*. Para remover imagens: docker rmi <id|name>*
 
 Na próxima aula, daremos o primeiro passo rumo a automação!
 
