@@ -41,8 +41,6 @@ Introdução e Conceitos
 
 2- *O server pegou fogo? Trágico, não? O último backup é do mês passado? O que você faria numa situação de desastre? **Problema 2: Automação de Backups e Recuperação de Desastres***
 
-
-
 ## Arquitetura Proposta
 
 ![alt text](https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/01-intro-arquitetura-proposta.png)
@@ -50,13 +48,13 @@ Introdução e Conceitos
 
 <div id='tools'/> 
 
-#Jenkins & Docker
+# Jenkins & Docker
 
-##Por que devo criar minha imagem?
+## Por que devo criar minha imagem?
 
-###Vamos explicar as motivações desta abordagem:
+### Vamos explicar as motivações desta abordagem:
 
-.Esta será a garantia de que sabemos exatamente como configurar nosso Jenkins;
+* **Esta** será a garantia de que sabemos exatamente como configurar nosso Jenkins;
 .As ferramentas, plugins e configurações serão precisas;
 .Segurança e qualidade no processo de atualização das ferramentas;
 .Subida de novas instâncias de Jenkins em questão de segundos;
