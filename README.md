@@ -42,7 +42,8 @@ Introdução e Conceitos
 2- *O server pegou fogo? Trágico, não? O último backup é do mês passado? O que você faria numa situação de desastre? **Problema 2: Automação de Backups e Recuperação de Desastres***
 
 
-# Arquitetura Proposta
+
+## Arquitetura Proposta
 
 ![alt text](https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/01-intro-arquitetura-proposta.png)
 
