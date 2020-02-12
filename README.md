@@ -275,6 +275,51 @@ Vamos repassar os conceitos e vantagens que tivemos até aqui!
 
 ```#SHOWMETHECODE```
 
+### Jenkins DSL, Groovy e IntelliJ
+
+*Toda Domain Specific Languague (DSL) requer um curva de aprendizado dentro de seu contexto funcional. Porém a parte técnica não precisa doer tanto, por issso vamos agora configurar uma IDE, no caso o IntelliJ, para nos dar recursos de auto-complete e facilitar nossa vida em tempo de desenvolvimento!*
+
+*O que iremos fazer juntos agora na aula:*
+
+* *1. O primeiro passo é criar um projeto Gradle com Java e Groovy.*
+* *2 Na sequência configuramos a IDE de forma que a mesma saiba interpretar as extenções dos Plugins.*
+* *3 Configuramos o Build Gradle com o Jenkins Core Library e também o pacote dos Plugins*
+
+```java
+group 'br.com.missaodevops'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    maven { url 'http://repo.jenkins-ci.org/releases/'}
+    maven { url 'http://updates.jenkins-ci.org/download/plugins/'}
+    maven { url 'http://jenkins-updates.cloudbees.com/download/plugins/'}
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.3.11'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile 'org.jenkins-ci.main:jenkins-core:2.45'
+}
+```
+
+
+
+
 <div id='together'/>
 
 ### Jenkins & Kubernetes
