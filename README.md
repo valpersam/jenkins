@@ -226,6 +226,16 @@ docker run --name docker-jenkins-4 \
 
 Finalmente temos o melhor dos dois mundos, um **Jenkins sob medida**, com todas configurações que eu necessito!
 
+### Atualizações e Evoluções (v 1.0.0)
+
+Quando se tratam de updates, 99% deles são executados na própria interface, e em larga escala (quem nunca atualizou 5.. 10 plugins de uma só vez?
+
+Há algumas aulas atrás, vimos vários plugins desatualizados, chegou a hora de **atualizar tudo** e deixar nossa imagem em sua **versão de 'release'**!
+
+Nossa logística ficou tão **fácil** que, é necessário apenas abrir o arquivo **plugins.txt**, atualizar as versões dos plugins e gerar uma nova imagem!
+
+Por se tratar de nossa primeira versão estável, finalmente vamos gerar a tag **1.0.0**
+
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
