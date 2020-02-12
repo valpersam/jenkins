@@ -400,6 +400,16 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 
 ### Extra: Play With K8s
 
-TESTE
+Sua máquina é devagar como a minha?
+E que tal um **Laboratório Kubernetes** na nuvem, sem **pagar nada** por isso?
+Até parece aqueles papinhos furados! (risos)
+Senhoras e Senhores, é hora de atacar o [Play With Kubernetes](https://labs.play-with-k8s.com/), um PaaS que nos permite usufruir de um cluster Kubernetes num período de 4 horas.
+Após esse tempo o cluster se destrói, e será necessário iniciar os trabalhos novamente.
+
+
+Ah! Os pulos do gato! 🐱
+
+Para Copiar e Colar utilize Ctrl + Insert e Shift + Insert;
+Para colocar o terminal em Tela Cheia Ctrl + Enter;
 
 
