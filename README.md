@@ -9,8 +9,7 @@
  3. [Jenkins AutoConfig via Groovy](#config)
  4. [Jenkins & Kubernetes](#together)
  
- 5. [Extra: VMs com Vagrant e Ansible](#automation)
- 6. [Extra: Play With K8s](#kubernetes)
+ 5. [Extra: Play With K8s](#kubernetes)
 
 *******
 
@@ -396,13 +395,6 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 *Para recuperar o IP do POD e atualizar o campo URL do Jenkins.*
 
 *Hora de ver os pipelines em execução!*
-
-
-<div id='automation'/>
-
-### Extra: VMs com Vagrant e Ansible
-
-TESTE
 
 <div id='kubernetes'/>
 
