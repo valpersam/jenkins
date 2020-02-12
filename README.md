@@ -211,6 +211,16 @@ docker build . \
     --tag <usuario-docker-hub>/missao-devops-jenkins:0.4.0
 ```
 
+**Execução:**
+
+```sh
+docker run --name docker-jenkins-4 \
+    -d \
+    -p 8080:8080 \
+    -v jenkins_home_4:/var/jenkins_home \
+    -v jenkins_backup_4:/srv/backup \
+    <usuario-docker-hub>/missao-devops-jenkins:0.4.0
+```
 
 
 <div id='config'/>
