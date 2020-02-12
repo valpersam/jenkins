@@ -182,8 +182,12 @@ docker build . \
 
 *E executamos:*
 
-```docker run --name docker-jenkins-3 \                                                                                                       -p 8080:8080 \                                                                                                                           -v jenkins_home_3:/var/jenkins_home \                                                                                                   -v jenkins_backup_3:/srv/backup \                                                                                                       <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
-
+```sh
+docker run --name docker-jenkins-3 \                                                                                                         -p 8080:8080 \
+    -v jenkins_home_3:/var/jenkins_home \
+    -v jenkins_backup_3:/srv/backup \
+    <usuario-docker-hub>/missao-devops-jenkins:0.3.0
+```
 
 * *1. Login na Ferramenta*
 * *2. Troca de Senha*
