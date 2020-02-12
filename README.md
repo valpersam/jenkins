@@ -175,7 +175,9 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 *Geramos uma nova versão:*
 
-```docker build . \                                                                                                                            -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
+```sh
+docker build . \                                                                                                                            -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0
+```
 
 *E executamos:*
 
@@ -193,6 +195,13 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
  ```docker push <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
 
 ### Gerando Imagem com Import de Configurações (v 0.4.0)
+
+*Chegamos ao ponto crucial, iremos juntar o setup 'limpo' da ferramenta com nossas configurações essenciais, e é aqui em que as coisas começam a fazer muito mais sentido!*
+
+*Copie todo o conteúdo, ou navegue, para o diretório 'v.0.4.0', disponilizado nos recursos da aula
+Build:*
+
+
 
 
 <div id='config'/>
