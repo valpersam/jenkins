@@ -130,7 +130,7 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 ```docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.2.0```
  
-*docker push <usuario-docker-hub>/missao-devops-jenkins:0.2.0*
+```docker push <usuario-docker-hub>/missao-devops-jenkins:0.2.0```
  
 *E finalmente com os plugins instalados, vamos verificar se está tudo OK!*
 
