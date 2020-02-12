@@ -352,7 +352,7 @@ Fiquem a vontade para escolher, e, caso tenham dúvida, dêem uma olhada na Seç
 
 Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nosso POD, gerado pelo Deployment, nunca seria acessado:
 
-* *1.```vi service.yml*```
+*1.```vi service.yml*```
 * *2.Copie o conteúdo do arquivo jenkins-service.yml disponibilizado na aula*
 * *3.kubectl apply -f service.yml*
 * *4.Verifique o serviço kubectl get services*
