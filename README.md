@@ -362,9 +362,9 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 
 Hora de criar nosso deployment, responsável por orientar o kubernetes de como se devem ser criados os PODs:
 
-**1.**```vi deployment.yml```
-**2.**```Copie o conteúdo do arquivo jenkins-deployment.yml disponibilizado na aula```
-**3.**```Atualize a ENV KUBERNETES_SERVER_URL com o ip do seu Cluster: kubectl cluster-info | grep master```
+* **1.**```vi deployment.yml```
+* **2.**```Copie o conteúdo do arquivo jenkins-deployment.yml disponibilizado na aula```
+* **3.**```Atualize a ENV KUBERNETES_SERVER_URL com o ip do seu Cluster: kubectl cluster-info | grep master```
 
 kubectl apply -f deployment.yml
 Verifique o serviço kubectl get deployments
