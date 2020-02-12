@@ -250,6 +250,8 @@ docker run --name docker-jenkins-100 \
     <usuario-docker-hub>/missao-devops-jenkins:1.0.0
 ```
 
+**Push:**```docker push <usuario-docker-hub>/missao-devops-jenkins:1.0.0```
+
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
