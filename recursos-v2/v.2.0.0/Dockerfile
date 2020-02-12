@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:2.112
 
-LABEL Author="Rodrigo Martinez da Rocha" 
+LABEL Author="Rafael Diez" 
 
 ARG master_image_version="v.2.0.0"
 ENV master_image_version $master_image_version
