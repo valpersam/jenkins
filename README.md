@@ -433,4 +433,24 @@ kubectl apply -n kube-system -f "https://cloud.weave.works/k8s/net?k8s-version=$
 
 ```watch kubectl get nodes```
 
+### Joining Slave
 
+E tão simples quanto iniciar nosso nó master, é se unir a ele.
+
+1. Clique em Add New Instance
+
+(Lembrando que agora teremos dois nós para navegarmos: node1 e node2)
+
+2. Se lembra da instrução join do kubeadm que copiamos no item 3 do tópico anterior?
+
+Hora do nosso novo nó, se tornar um recurso do nó principal, cole o comando aqui!
+(Algo como: kubeadm join --token  : --discovery-token-ca-cert-hash sha256:)
+
+3. Hora de acompanhar o nó slavel ficar em estado **Ready** (opcional)
+Retorne ao nó master e execute o comando: 
+
+```watch kubectl get nodes```
+
+Com nosso cluster pronto, é hora de subirmos nosso Jenkins!
+
+Para isso basta executar os mesmos passos feitos via Minikube!
