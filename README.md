@@ -317,6 +317,16 @@ dependencies {
 }
 ```
 
+*Agora iremos dar um up em nosso Gradle, informando a ele todas dependências do nosso Jenkins, para isso ficar muito mais fácil, iremos utilizar nosso velho amigo 'plugins.txt' novamente!*
+
+*Aproveitando que todos plugins seguem o padrão de empacotamento do Java, vamos automatizar um trabalho manual de configurar as dependências:*
+
+```sh
+awk -v prefix="compile 'org.jenkins-ci.plugins:" -v postfix="'" '{print prefix $0 postfix}' plugins.txt > dependencies.txt
+```
+
+
+
 
 
 
