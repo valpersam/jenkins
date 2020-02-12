@@ -365,6 +365,8 @@ Hora de criar nosso deployment, responsável por orientar o kubernetes de como s
 * **1.**```vi deployment.yml```
 * **2.**```Copie o conteúdo do arquivo jenkins-deployment.yml disponibilizado na aula```
 * **3.**```Atualize a ENV KUBERNETES_SERVER_URL com o ip do seu Cluster: kubectl cluster-info | grep master```
+* **4.**```kubectl apply -f deployment.yml```
+* **5.**```Verifique o serviço kubectl get deployments```
 
 kubectl apply -f deployment.yml
 Verifique o serviço kubectl get deployments
