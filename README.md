@@ -348,7 +348,7 @@ Fiquem a vontade para escolher, e, caso tenham dúvida, dêem uma olhada na Seç
 
 #### Cluster HandsOn
 
-##### Service
+#### Service
 
 Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nosso POD, gerado pelo Deployment, nunca seria acessado:
 
@@ -358,7 +358,7 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 * **4.**```Verifique o serviço kubectl get services```
 * **5.**```Verifique o serviço kubectl get deployments```
 
-##### Deployment
+#### Deployment
 
 *Hora de criar nosso deployment, responsável por orientar o kubernetes de como se devem ser criados os PODs:*
 
@@ -370,7 +370,7 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 
 *Show! O serviço foi exposto e já podemos acessá-lo!*
 
-##### Role
+#### Role
 
 *Para provar que esse laboratório não deixa nenhuma feature para trás, antes de ver funcionar, veremos falhar! 😢*
 *Navegue até as Configurações do Jenkins, na seção Clouds iremos testar a configuração.*
