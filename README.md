@@ -413,4 +413,19 @@ Para **Copiar e Colar** utilize ```Ctrl + Insert``` e ```Shift + Insert```;
 
 Para colocar o terminal em **Tela Cheia** ```Ctrl + Enter```;
 
+### Starting Master
+
+1. Clique em Add New Instance
+
+2. Inicializar o nó master é tão tranquilo quanto:
+kubeadm init --apiserver-advertise-address $(hostname -i)
+
+3. Durante a inicialização, o nó master nos dará uma informação importante: a instrução kubeadm join contendo um token e um hash, copie-a!
+
+4. Inicialize a rede do cluster:
+kubectl apply -n kube-system -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')" 
+
+5. Vamos acompanhar o nó master ficar em estado Ready (opcional)
+watch kubectl get nodes
+
 
