@@ -86,7 +86,7 @@ Faça o login em sua sua conta**
 
 **E envie sua imagem:**
 
-```docker push <usuario-docker-hub>/missao-devops-jenkins:0.1.0```
+**Push:**```docker push <usuario-docker-hub>/missao-devops-jenkins:0.1.0```
 
 **Execução da Nossa Imagem (v 0.1.0)**
 
@@ -130,7 +130,7 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 
 ```docker run --name docker-jenkins -p 8080:8080 <usuario-docker-hub>/missao-devops-jenkins:0.2.0```
  
-*Push*```docker push <usuario-docker-hub>/missao-devops-jenkins:0.2.0```
+**Push:**```docker push <usuario-docker-hub>/missao-devops-jenkins:0.2.0```
  
 *E finalmente com os plugins instalados, vamos verificar se está tudo OK!*
 
