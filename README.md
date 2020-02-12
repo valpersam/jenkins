@@ -325,6 +325,15 @@ dependencies {
 awk -v prefix="compile 'org.jenkins-ci.plugins:" -v postfix="'" '{print prefix $0 postfix}' plugins.txt > dependencies.txt
 ```
 
+*Após atualizarmos o arquivo build.script vamos ao update!*
+
+*Por último teremos que importar as bibliotecas no diretório abaixo, e também atualizar nosso **build.gradle**:*
+
+```java
+compile fileTree(dir: 'lib', include: ['*.jar'])
+```
+
+
 
 
 
