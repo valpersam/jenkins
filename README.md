@@ -252,6 +252,13 @@ docker run --name docker-jenkins-100 \
 
 **Push:**```docker push <usuario-docker-hub>/missao-devops-jenkins:1.0.0```
 
+Vamos repassar os conceitos e vantagens que tivemos até aqui!
+
+### Overview e Conclusões
+
+![alt text](https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/02-jenkins-docker-conclusion.png)
+
+
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
