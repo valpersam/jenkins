@@ -264,6 +264,17 @@ Vamos repassar os conceitos e vantagens que tivemos até aqui!
 
 #### Jenkins AutoConfig via Groovy (v.2.0.0)
 
+Neste capítulo traremos uma alternativa que também soluciona o problema de backup e configuração manual de instâncias. Lembrando que esta abordagem se sobrepõe a estratégia anterior, aquela em que criamos na v.1.0.0. O objetivo aqui é que o Jenkins se 'auto configure' em tempo de execução, e, em grandes linhas, agora nosso Docker Build irá funcionar da seguinte forma:
+
+1. Instalamos os plugins (como sempre fizemos);
+2. Injetaremos novos arquivos de propriedades (JDKs, Variáveis de Ambiente, Globals, etc.);
+3. Injetaremos os novos códigos Groovy responsáveis pela configuração da instância;
+4. O Jenkins, em tempo de construção do container, executa os scripts do item 3, tendo como base os arquivos do item 2.
+
+E vamos ao que interessa:
+
+```#SHOWMETHECODE```
+
 <div id='together'/>
 
 ### Jenkins & Kubernetes
