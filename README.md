@@ -425,7 +425,9 @@ Para colocar o terminal em **Tela Cheia** ```Ctrl + Enter```;
 
 4. Inicialize a rede do cluster:
 
-```kubectl apply -n kube-system -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')"```
+```sh
+kubectl apply -n kube-system -f "https://cloud.weave.works/k8s/net?k8s-version=$(kubectl version | base64 |tr -d '\n')"
+```
 
 5. Vamos acompanhar o nó master ficar em estado Ready (opcional)
 
