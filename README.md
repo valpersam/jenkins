@@ -360,7 +360,7 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 
 ##### Deployment
 
-Hora de criar nosso deployment, responsável por orientar o kubernetes de como se devem ser criados os PODs:
+*Hora de criar nosso deployment, responsável por orientar o kubernetes de como se devem ser criados os PODs:*
 
 * **1.**```vi deployment.yml```
 * **2.**```Copie o conteúdo do arquivo jenkins-deployment.yml disponibilizado na aula```
@@ -368,11 +368,14 @@ Hora de criar nosso deployment, responsável por orientar o kubernetes de como s
 * **4.**```kubectl apply -f deployment.yml```
 * **5.**```Verifique o serviço kubectl get deployments```
 
-kubectl apply -f deployment.yml
-Verifique o serviço kubectl get deployments
+*Show! O serviço foi exposto e já podemos acessá-lo!*
 
+##### Role
 
-Show! O serviço foi exposto e já podemos acessá-lo!
+*Para provar que esse laboratório não deixa nenhuma feature para trás, antes de ver funcionar, veremos falhar! 😢*
+*Navegue até as Configurações do Jenkins, na seção Clouds iremos testar a configuração.*
+
+*Falhou! Agora aplique a rule:*
 
 <div id='automation'/>
 
