@@ -383,6 +383,21 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 
 *Vamos testar novamente e... #SUCESSO!*
 
+#### POD
+
+*Por último, Acesse Configurações Globais > Seção Cloud e atualize a URL Jenkins com o ip do POD, para isso execute:*
+
+```kubectl get pods | grep ^jenkins```
+
+*Obtenha o POD ID e:*
+
+```kubectl describe pod <POD-ID> | grep IP```
+
+*Para recuperar o IP do POD e atualizar o campo URL do Jenkins.*
+
+*Hora de ver os pipelines em execução!*
+
+
 <div id='automation'/>
 
 ### Extra: VMs com Vagrant e Ansible
