@@ -198,7 +198,7 @@ docker run --name docker-jenkins-3 \
 * *6. Executar Backup*
 * *7. Obter Backup*
 
- ```docker push <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
+ Push: `docker push <usuario-docker-hub>/missao-devops-jenkins:0.3.0`
 
 ### Gerando Imagem com Import de Configurações (v 0.4.0)
 
