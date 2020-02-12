@@ -222,6 +222,9 @@ docker run --name docker-jenkins-4 \
     <usuario-docker-hub>/missao-devops-jenkins:0.4.0
 ```
 
+**Push:** ```docker push <usuario-docker-hub>/missao-devops-jenkins:0.4.0```
+
+Finalmente temos o melhor dos dois mundos, um **Jenkins sob medida**, com todas configurações que eu necessito!
 
 <div id='config'/>
 
