@@ -206,6 +206,10 @@ docker run --name docker-jenkins-3 \
 *Copie todo o conteúdo, ou navegue, para o diretório 'v.0.4.0', disponilizado nos recursos da aula
 Build:*
 
+```sh
+docker build . \
+    --tag <usuario-docker-hub>/missao-devops-jenkins:0.4.0
+```
 
 
 
