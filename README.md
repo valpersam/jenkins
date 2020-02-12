@@ -180,8 +180,8 @@ docker build . \                                                                
 ```
 
 ```sh
-127.0.0.1:8000
-    teste ok
+docker build . \
+    -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0
 ```
 
 *E executamos:*
