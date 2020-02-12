@@ -236,6 +236,20 @@ Nossa logística ficou tão **fácil** que, é necessário apenas abrir o arquiv
 
 Por se tratar de nossa primeira versão estável, finalmente vamos gerar a tag **1.0.0**
 
+```sh
+docker build . \
+    --tag <usuario-docker-hub>/missao-devops-jenkins:1.0.0
+```
+
+```sh
+docker run --name docker-jenkins-100 \
+    -d \
+    -p 8080:8080 \
+    -v jenkins_home_100:/var/jenkins_home \
+    -v jenkins_backup_100:/srv/backup \
+    <usuario-docker-hub>/missao-devops-jenkins:1.0.0
+```
+
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
