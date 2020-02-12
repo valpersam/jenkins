@@ -4,7 +4,6 @@
 # Topicos
 
 *******
-Introdução e Conceitos 
  1. [Introdução](#intro)
  2. [Jenkins & Docker](#tools)
  3. [Jenkins AutoConfig via Groovy](#config)
