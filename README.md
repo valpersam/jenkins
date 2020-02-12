@@ -258,12 +258,11 @@ Vamos repassar os conceitos e vantagens que tivemos até aqui!
 
 ![alt text](https://gitlab.com/rocha.public/cursos/jenkins-em-larga-escala/-/wikis/images/02-jenkins-docker-conclusion.png)
 
-
 <div id='config'/>
 
 ### Jenkins AutoConfig via Groovy
 
-TESTE
+#### Jenkins AutoConfig via Groovy (v.2.0.0)
 
 <div id='together'/>
 
