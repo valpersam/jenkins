@@ -339,15 +339,16 @@ compile fileTree(dir: 'lib', include: ['*.jar'])
 
 *https://jenkins.io/doc/pipeline/steps/*
 
-
-
-
-
 <div id='together'/>
 
 ### Jenkins & Kubernetes
 
-TESTE
+Agora, vocês devem escolher como pretender executar o Kubernetes (muito provavelmente vocês já tenham isso), eu optei pelo Minikube!
+Fiquem a vontade para escolher, e, caso tenham dúvida, dêem uma olhada na Seção Extra dexei para vocês overview sobre o Play With K8s para ajudar com essa 'dúvida'.
+
+#### Cluster HandsOn
+
+##### Service
 
 <div id='automation'/>
 
