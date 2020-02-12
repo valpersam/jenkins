@@ -179,6 +179,11 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 docker build . \                                                                                                                            -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0
 ```
 
+```sh
+127.0.0.1:8000
+    teste ok
+```
+
 *E executamos:*
 
 ```docker run --name docker-jenkins-3 \                                                                                                       -p 8080:8080 \                                                                                                                           -v jenkins_home_3:/var/jenkins_home \                                                                                                   -v jenkins_backup_3:/srv/backup \                                                                                                       <usuario-docker-hub>/missao-devops-jenkins:0.3.0```
