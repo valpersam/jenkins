@@ -269,7 +269,7 @@ Neste capítulo traremos uma alternativa que também soluciona o problema de bac
 1. Instalamos os plugins (como sempre fizemos);
 2. Injetaremos novos arquivos de propriedades (JDKs, Variáveis de Ambiente, Globals, etc.);
 3. Injetaremos os novos códigos Groovy responsáveis pela configuração da instância;
-4. O Jenkins, em tempo de construção do container, executa os scripts do item 3, tendo como base os arquivos do item 2.
+4. O Jenkins em tempo de construção do container, executa os scripts do item 3, tendo como base os arquivos do item 2.
 
 E vamos ao que interessa:
 
