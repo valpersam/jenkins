@@ -377,6 +377,12 @@ Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nos
 
 *Falhou! Agora aplique a rule:*
 
+* **1.**```vi rule.yml```
+* **2.**```Copie o conteúdo do arquivo jenkins-role.yml disponibilizado na aula```
+* **3.**```kubectl apply -f rule.yml```
+
+*Vamos testar novamente e... #SUCESSO!*
+
 <div id='automation'/>
 
 ### Extra: VMs com Vagrant e Ansible
