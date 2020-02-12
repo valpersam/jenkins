@@ -176,10 +176,6 @@ Na próxima aula, daremos o primeiro passo rumo a automação!
 *Geramos uma nova versão:*
 
 ```sh
-docker build . \                                                                                                                            -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0
-```
-
-```sh
 docker build . \
     -tag <usuario-docker-hub>/missao-devops-jenkins:0.3.0
 ```
