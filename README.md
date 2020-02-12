@@ -409,7 +409,7 @@ Após esse tempo o cluster se destrói, e será necessário iniciar os trabalhos
 
 Ah! Os pulos do gato! 🐱
 
-Para Copiar e Colar utilize Ctrl + Insert e Shift + Insert;
+Para **Copiar e Colar** utilize ```Ctrl + Insert``` e ```Shift + Insert```;
 Para colocar o terminal em Tela Cheia Ctrl + Enter;
 
 
