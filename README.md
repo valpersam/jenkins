@@ -352,10 +352,25 @@ Fiquem a vontade para escolher, e, caso tenham dúvida, dêem uma olhada na Seç
 
 Hora de criar nosso Service, responsável por expor nosso endpoint, sem isso nosso POD, gerado pelo Deployment, nunca seria acessado:
 
-* *1.vi service.yml*
+* *1.```vi service.yml*```
 * *2.Copie o conteúdo do arquivo jenkins-service.yml disponibilizado na aula*
 * *3.kubectl apply -f service.yml*
-* *4Verifique o serviço kubectl get services*
+* *4.Verifique o serviço kubectl get services*
+* *5.Verifique o serviço kubectl get deployments*
+
+##### Deployment
+
+Hora de criar nosso deployment, responsável por orientar o kubernetes de como se devem ser criados os PODs:
+
+* *1.vi deployment.yml*
+* *2.Copie o conteúdo do arquivo jenkins-deployment.yml disponibilizado na aula*
+* *3.Atualize a ENV KUBERNETES_SERVER_URL com o ip do seu Cluster: kubectl cluster-info | grep master*
+
+kubectl apply -f deployment.yml
+Verifique o serviço kubectl get deployments
+
+
+Show! O serviço foi exposto e já podemos acessá-lo!
 
 <div id='automation'/>
 
