@@ -335,8 +335,8 @@ compile fileTree(dir: 'lib', include: ['*.jar'])
 
 *Nossa referência sempre foram as documentações:*
 
-https://jenkins.io/pipeline/getting-started-pipelines/
-https://jenkins.io/doc/pipeline/steps/
+(https://jenkins.io/pipeline/getting-started-pipelines/)
+(https://jenkins.io/doc/pipeline/steps/)
 
 
 
